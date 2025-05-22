@@ -36,23 +36,83 @@ const scrollHeader = () => {
 window.addEventListener('scroll', scrollHeader)
 
 
+//  swiper
+
+const swiper = new Swiper('.class-wrapper', {
+  loop: true,
+  autoplay: true,
+  grabCursor :true,
+  spaceBetween: 10,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+    620: {
+        slidesPerView: 2
+    },
+    1024: {
+        slidesPerView: 4
+    },
+    
+  }
+});
+
+
+// swiper-2
+
+const swiper2 = new Swiper('.trainers-wrapper', {
+  loop: true,
+  autoplay: true,
+  grabCursor :true,
+  spaceBetween: 10,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+    620: {
+        slidesPerView: 2
+    },
+    1024: {
+        slidesPerView: 4
+    },
+    
+  }
+});
+
+
 
 
 gsap.from('.nav__logo', {y: -100, opacity: 0, delay: 0.5, duration: 1})
-gsap.from('.nav-home', {y: -100, opacity: 0, delay: 0.6, duration: 1})
-gsap.from('.nav-about', {y: -100, opacity: 0, delay: 0.7, duration: 1})
-gsap.from('.nav-class', {y: -100, opacity: 0, delay: 0.8, duration: 1})
-gsap.from('.nav-time', {y: -100, opacity: 0, delay: 0.9, duration: 1})
-gsap.from('.nav-shop', {y: -100, opacity: 0, delay: 1, duration: 1})
-gsap.from('.nav-contact', {y: -100, opacity: 0, delay: 1.1, duration: 1})
-gsap.from('.home-titles', {y: 100, opacity: 0, delay: 1, duration: 1})
-gsap.from('.home-title', {y: 100, opacity: 0, delay: 1.1, duration: 1})
-gsap.from('.home-img', {y: -100, opacity: 0, delay: 1.2, duration: 1})
-gsap.from('.fbook', {x: -100, opacity: 0, delay: 1.4, duration: 1})
-gsap.from('.tweet', {x: -100, opacity: 0, delay: 1.5, duration: 1})
-gsap.from('.insta', {x: -100, opacity: 0, delay: 1.6, duration: 1})
-gsap.from('.gym', {x: 100, opacity: 0, delay: 1.7, duration: 1})
-
 
 
 ScrollReveal({
