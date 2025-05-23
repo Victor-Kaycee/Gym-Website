@@ -122,13 +122,17 @@ ScrollReveal({
   delay: 200
 })
 
-ScrollReveal().reveal(".creators-grid h2, .goal-header h1, .g-3, .g-4, .tedu, .flexibility-grids img, .t-3, .t-4", { origin: 'left'})
-ScrollReveal().reveal(".creators-grid-2 p, .goal-header p, .g-1, .g-5, .dsg, .flex-content, .t-1, .t-6", { origin: 'right'})
-ScrollReveal().reveal(".creators-grid-2 img, .g-2, .services-header h2, .team-header, .t-5", { origin: 'top'})
-ScrollReveal().reveal(".sp-1", { origin: 'top', duration: '2000'})
-ScrollReveal().reveal(".sp-2", { origin: 'top', duration: '3000'})
-ScrollReveal().reveal(".sp-3", { origin: 'top', duration: '4000'})
-ScrollReveal().reveal(".sp-4", { origin: 'top', duration: '5000'})
-ScrollReveal().reveal(".sp-5", { origin: 'top', duration: '6000'})
-ScrollReveal().reveal(".sp-6", { origin: 'top', duration: '7000'})
-ScrollReveal().reveal(".creators-grid img, .dvpm, .t-2", { origin: 'bottom'})
+ScrollReveal().reveal(".home-mck-1, .g-3, .g-4, .p-3", { origin: 'left'})
+ScrollReveal().reveal(".home-mck-2, .about-header p, .goal-header p, .g-1, .g-5, .elevate-header p, .p-1", { origin: 'right'})
+ScrollReveal().reveal(".home-mck-2, .about-header h1, .goal-header h1, .elevate-header h1, .class-header h1, .pricing-header h1, .video-header h1, .trainers-header h1, .contact-header h1", { origin: 'top'})
+ScrollReveal().reveal(".about-img, .g-2, .elevate-img, .p-2, .video-link, .contact-link", { origin: 'bottom'})
+ScrollReveal().reveal(".home-head h2", { origin: 'top', delay: 400, distance: '50px'})
+ScrollReveal().reveal(".home-head h1, .class-grids, .trainers-grids", { scale: 1.1, delay: 500})
+ScrollReveal().reveal(".sp-1", { origin: 'top'})
+ScrollReveal().reveal(".sp-2", { origin: 'top', delay: 300})
+ScrollReveal().reveal(".sp-3", { origin: 'top', delay: 400})
+ScrollReveal().reveal(".sp-4", { origin: 'top', delay: 500})
+ScrollReveal().reveal(".sp-5", { origin: 'top', delay: 600})
+ScrollReveal().reveal(".sp-6", { origin: 'top', delay: 700})
+
+
